@@ -97,3 +97,33 @@ footer > * {
     list-style: none;
     display: flex;
 }
+
+#steps-list {
+    list-style: none;
+}
+
+@media (min-width: 1000px) {
+    #steps-list {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1500px) {
+    #steps-list {
+        width: 60%;
+    }
+}
+
+#what-it-takes {
+    padding-top: 3rem;
+}
+
+#what-it-takes li {
+    padding: 1.2rem;
+    text-align: center;
+}
+
+#what-it-doesnt-take {
+    padding: 3rem;
+}
