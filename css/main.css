@@ -127,3 +127,52 @@ footer > * {
 #what-it-doesnt-take {
     padding: 3rem;
 }
+
+.sponsors-group {
+    margin-bottom: 1.5rem;
+    border-bottom: 0.5px solid #ccc;
+}
+
+.sponsors-group > * {
+    border: 0.5px solid #ccc;
+    border-bottom: none;
+}
+
+.sponsors-group > h1 {
+    background-color: #eaeaea;
+    border-radius: 1rem 1rem 0 0;
+    border: 0.5px solid #ccc;
+    border-bottom: none;
+}
+
+.sponsor {
+    display: flex;
+}
+
+.sponsor-header {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sponsor-copy {
+    flex: 3;
+}
+
+.sponsor-copy > p {
+    padding-bottom: 0.9rem;
+}
+
+#community-sponsors {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.community-sponsor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
