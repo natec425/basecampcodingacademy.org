@@ -243,3 +243,7 @@ footer > * {
 .curriculum-unit-copy {
     flex: 5;
 }
+
+.modules-list {
+    padding-left: 3rem;
+}
