@@ -220,3 +220,26 @@ footer > * {
 .portfolio-group {
     padding-right: 3rem;
 }
+
+.curriculum-unit {
+    padding: 1rem;
+}
+
+.curriculum-unit > h1 {
+    font-size: 1.35rem;
+}
+
+.curriculum-unit-description {
+    display: flex;
+}
+
+.curriculum-unit-image {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+}
+
+.curriculum-unit-copy {
+    flex: 5;
+}
