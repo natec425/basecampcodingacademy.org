@@ -145,6 +145,12 @@ footer > * {
     display: flex;
 }
 
+@media (max-width: 600px) {
+    .sponsor {
+        flex-direction: column;
+    }
+}
+
 .sponsor-header {
     flex: 1;
     display: flex;
@@ -166,11 +172,23 @@ footer > * {
     justify-content: space-between;
 }
 
+@media (max-width: 600px) {
+    #community-sponsors {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .community-sponsor {
+        padding-bottom: 2rem;
+    }
+}
+
 .community-sponsor {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 1rem;
 }
 
 #newsletters-list {
