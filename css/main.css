@@ -197,3 +197,16 @@ footer > * {
 #press-list > li {
     padding-bottom: 0.5rem;
 }
+
+.portfolio-list {
+    list-style: none;
+}
+
+.student-portfolios {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-group {
+    padding-right: 3rem;
+}
