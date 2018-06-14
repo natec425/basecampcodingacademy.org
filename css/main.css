@@ -181,3 +181,19 @@ footer > * {
     justify-content: center;
     align-items: center;
 }
+
+#newsletters-list {
+    list-style: none;
+}
+
+#press-list {
+    list-style: none;
+}
+
+#newsletters-list > li {
+    padding-bottom: 0.5rem;
+}
+
+#press-list > li {
+    padding-bottom: 0.5rem;
+}
