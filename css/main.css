@@ -15,13 +15,6 @@ a {
 .about {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-}
-
-.center {
-    text-align: center;
 }
 
 .site-nav {
@@ -72,8 +65,10 @@ a {
     }
 }
 
-.main-content > * > * {
-    padding: 0.6rem;
+@media (min-width: 600px) {
+    .main-content > * > * {
+        padding: 0.6rem;
+    }
 }
 
 .class-picture {
@@ -110,7 +105,6 @@ footer > * {
 @media (min-width: 1000px) {
     #steps-list {
         width: 80%;
-        margin: auto;
     }
 }
 
@@ -120,17 +114,14 @@ footer > * {
     }
 }
 
-#what-it-takes {
-    padding-top: 3rem;
-}
-
 #what-it-takes li {
-    padding: 1.2rem;
-    text-align: center;
+    padding: 1.2rem 0;
 }
 
-#what-it-doesnt-take {
-    padding: 3rem;
+@media (min-width: 600px) {
+    #what-it-takes li {
+        padding: 1.2rem;
+    }
 }
 
 .sponsors-group {
