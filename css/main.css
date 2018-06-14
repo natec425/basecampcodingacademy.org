@@ -214,6 +214,7 @@ footer > * {
 .student-portfolios {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .portfolio-group {
